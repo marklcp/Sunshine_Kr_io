@@ -3,7 +3,7 @@ package com.omarea.shell.units
 import com.omarea.common.shell.KeepShellPublic
 import com.omarea.common.shell.KernelProrp
 import com.omarea.common.shell.RootFile
-import com.projectkr.shell.BatteryStatus
+import com.Sunshine.ToolBox.BatteryStatus
 import java.io.File
 
 /**

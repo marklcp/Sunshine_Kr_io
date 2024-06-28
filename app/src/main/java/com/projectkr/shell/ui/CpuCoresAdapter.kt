@@ -1,4 +1,4 @@
-package com.projectkr.shell.ui
+package com.Sunshine.ToolBox.ui
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -6,8 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.TextView
-import com.projectkr.shell.CpuCoreInfo
-import com.projectkr.shell.R
+import com.Sunshine.ToolBox.CpuCoreInfo
+import com.Sunshine.ToolBox.R
 import java.util.*
 
 class AdapterCpuCores(private val context: Context, private val list: ArrayList<CpuCoreInfo>?) : BaseAdapter() {

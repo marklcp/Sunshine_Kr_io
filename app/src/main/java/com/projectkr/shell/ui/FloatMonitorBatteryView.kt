@@ -1,4 +1,4 @@
-package com.projectkr.shell.ui
+package com.Sunshine.ToolBox.ui
 
 import android.animation.ValueAnimator
 import android.annotation.SuppressLint
@@ -9,7 +9,7 @@ import android.graphics.RectF
 import android.util.AttributeSet
 import android.view.View
 import android.view.animation.DecelerateInterpolator
-import com.projectkr.shell.R
+import com.Sunshine.ToolBox.R
 
 class FloatMonitorBatteryView : View {
     //-------------必须给的数据相关-------------

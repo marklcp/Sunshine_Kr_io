@@ -1,4 +1,4 @@
-package com.projectkr.shell.permissions
+package com.Sunshine.ToolBox.permissions
 
 import android.Manifest
 import android.app.AlertDialog
@@ -9,7 +9,7 @@ import android.os.Looper
 import androidx.core.content.PermissionChecker
 import com.omarea.common.shell.KeepShellPublic
 import com.omarea.common.ui.DialogHelper
-import com.projectkr.shell.R
+import com.Sunshine.ToolBox.R
 import kotlin.system.exitProcess
 
 /**

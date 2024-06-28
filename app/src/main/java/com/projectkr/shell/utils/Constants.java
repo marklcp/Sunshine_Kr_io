@@ -1,4 +1,4 @@
-package com.projectkr.shell.utils;
+package com.Sunshine.ToolBox.utils;
 
 public interface Constants {
     String cpu_dir = "/sys/devices/system/cpu/cpu0/";

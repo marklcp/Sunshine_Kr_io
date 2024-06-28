@@ -1,4 +1,4 @@
-package com.projectkr.shell.ui
+package com.Sunshine.ToolBox.ui
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -6,7 +6,7 @@ import android.graphics.Canvas
 import android.graphics.Paint
 import android.util.AttributeSet
 import android.view.View
-import com.projectkr.shell.R
+import com.Sunshine.ToolBox.R
 import java.util.concurrent.LinkedBlockingQueue
 
 class CpuChartBarView : View {

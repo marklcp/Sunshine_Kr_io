@@ -1,4 +1,4 @@
-package com.projectkr.shell
+package com.Sunshine.ToolBox
 
 import android.Manifest
 import android.app.Activity
@@ -31,8 +31,8 @@ import com.omarea.krscript.model.*
 import com.omarea.krscript.ui.ActionListFragment
 import com.omarea.krscript.ui.ParamsFileChooserRender
 import com.omarea.vtools.FloatMonitor
-import com.projectkr.shell.permissions.CheckRootStatus
-import com.projectkr.shell.ui.TabIconHelper
+import com.Sunshine.ToolBox.permissions.CheckRootStatus
+import com.Sunshine.ToolBox.ui.TabIconHelper
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

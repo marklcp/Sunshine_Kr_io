@@ -1,4 +1,4 @@
-package com.projectkr.shell;
+package com.Sunshine.ToolBox;
 
 import android.content.Context;
 
@@ -12,26 +12,26 @@ import java.util.HashMap;
 public class KrScriptConfig {
     private static final String ASSETS_FILE = "file:///android_asset/";
 
-    private final static String TOOLKIT_DIR = "toolkit_dir";
+    private final static String TOOLKIT_DIR = "Tool_dir";
     private final static String TOOLKIT_DIR_DEFAULT = "file:///android_asset/kr-script/toolkit";
 
-    private final static String EXECUTOR_CORE = "executor_core";
-    private final static String PAGE_LIST_CONFIG = "page_list_config";
-    private final static String PAGE_LIST_CONFIG_SH = "page_list_config_sh";
+    private final static String EXECUTOR_CORE = "Sunshine";
+    private final static String PAGE_LIST_CONFIG = "Kr_Script_A";
+    private final static String PAGE_LIST_CONFIG_SH = "Kr_Script_A_sh";
 
-    private final static String PAGE_LIST_CONFIG1 = "page_list_config1";
-    private final static String PAGE_LIST_CONFIG_SH1 = "page_list_config_sh1";
+    private final static String PAGE_LIST_CONFIG1 = "Kr_Script_B";
+    private final static String PAGE_LIST_CONFIG_SH1 = "Kr_Script_B_sh";
 
-    private final static String PAGE_LIST_CONFIG2 = "page_list_config2";
-    private final static String PAGE_LIST_CONFIG_SH2 = "page_list_config_sh2";
+    private final static String PAGE_LIST_CONFIG2 = "Kr_Script_C";
+    private final static String PAGE_LIST_CONFIG_SH2 = "Kr_Script_C_sh";
 
-    private final static String PAGE_LIST_CONFIG3 = "page_list_config3";
-    private final static String PAGE_LIST_CONFIG_SH3 = "page_list_config_sh3";
+    private final static String PAGE_LIST_CONFIG3 = "Kr_Script_D";
+    private final static String PAGE_LIST_CONFIG_SH3 = "Kr_Script_D_sh";
 
-    private final static String FAVORITE_CONFIG = "favorite_config";
-    private final static String FAVORITE_CONFIG_SH = "favorite_config_sh";
+    private final static String FAVORITE_CONFIG = "Homepage";
+    private final static String FAVORITE_CONFIG_SH = "Homepage_sh";
     private final static String ALLOW_HOME_PAGE = "allow_home_page";
-    private final static String BEFORE_START_SH = "before_start_sh";
+    private final static String BEFORE_START_SH = "AC";
     private static HashMap<String, String> configInfo;
     private final String EXECUTOR_CORE_DEFAULT = "file:///android_asset/kr-script/executor.sh";
     private final String PAGE_LIST_CONFIG_DEFAULT = "file:///android_asset/kr-script/pages/more.xml";

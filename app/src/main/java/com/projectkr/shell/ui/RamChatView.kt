@@ -1,4 +1,4 @@
-package com.projectkr.shell.ui
+package com.Sunshine.ToolBox.ui
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -7,7 +7,7 @@ import android.graphics.Paint
 import android.graphics.RectF
 import android.util.AttributeSet
 import android.view.View
-import com.projectkr.shell.R
+import com.Sunshine.ToolBox.R
 
 class RamChatView : View {
     //-------------必须给的数据相关-------------

@@ -14,12 +14,12 @@ import android.view.WindowManager.LayoutParams
 import android.widget.TextView
 import android.widget.Toast
 import com.omarea.shell.units.BatteryUnit
-import com.projectkr.shell.R
-import com.projectkr.shell.ui.FloatMonitorBatteryView
-import com.projectkr.shell.ui.FloatMonitorChartView
-import com.projectkr.shell.utils.CpuFrequencyUtils
-import com.projectkr.shell.utils.CpuLoadUtils
-import com.projectkr.shell.utils.GpuUtils
+import com.Sunshine.ToolBox.R
+import com.Sunshine.ToolBox.ui.FloatMonitorBatteryView
+import com.Sunshine.ToolBox.ui.FloatMonitorChartView
+import com.Sunshine.ToolBox.utils.CpuFrequencyUtils
+import com.Sunshine.ToolBox.utils.CpuLoadUtils
+import com.Sunshine.ToolBox.utils.GpuUtils
 import java.util.*
 
 class FloatMonitor(context: Context) {
