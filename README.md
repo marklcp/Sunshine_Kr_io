@@ -1,27 +1,46 @@
-### 【创造属于或者定制自己的玩机助手】
-### xxx玩机助手收费怎么办我没有钱，xxx玩机助手功能太少了，看见另人也有玩机助手，我不知道怎么搞
-### 这里全部解决，定制自己的玩机助手
-### 这是一个基于kr-script，但是2021年最后一次更新，在kr-script也没有什么在线更新，同意协议等，这个kr-script我加入了，在github可以自动化编译
+# 注意：3.9.2 之后版本的开发文档，改为随示例APK发布
+# 在线的文档将不再同步更新
+# 以下内容仅适于3.9.1及以前的版本
 
-## 创造属于自己的玩机助手
-### 只要你会Shell（不会当我没说）
+## 简介
 
-## QQ群反馈 832405462
-### 我另外一个项目 https://github.com/Twmcy/WearOS-Tools
+### 功能用途
+- 利用本框架，通过 `xml + shell` 快速创建具有ROOT权限的玩机工具
+- 如果你对`linux shell`脚本语法有一定了解，上手将会非常迅速
+- 大多数情况下，只需要修改应用`assets`中的静态文件，即可完成功定义和修改
+- 而不需要修改和编译`Java、Kotlin`代码
 
-## 如何编译？
-### 百度一下你就知道
-###  如果你没有电脑，就点fork，然后会自动编译
+### 文档目录
 
-## 更新内部
-### --修复了无法编译
-### --加入在线更新
-### --加入同意协议
-### --修改了About文件
-### --加入了Android14的协议
-### --加入了网络提示
-### --加入了toast提示
-### --加入了反签名机制
+1. 功能节点：功能组成
+    - [page](./docs/Page.md) 设置功能页面
+    - [action](./docs/Action.md) 设置动作节点
+    - [switch](./docs/Switch.md) 设置开关节点
+    - [picker](./docs/Picker.md) 设置单选列表节点
 
-# 帮助
-###### 更新文件是Updatekt
+2. 外观节点：让界面更美观
+    - [text](./docs/Text.md) 显示格式化的文本
+    - [group](./docs/Group.md) 对功能进行分组
+
+3. 重要建议：帮助梳理代码
+    - [脚本使用](./docs/Script.md) 将脚本作为独立文件
+    - [resource](./docs/Resource.md) 使用添加到`assets`中的文件
+    - [visible属性](./docs/Property_Visible.md) 功能的显示和隐藏
+
+4. 额外拓展（附加内容）
+    - [其它](./docs/Extra.md) 了解框架对Shell所做的额外补充
+
+5. HTML网页（附加内容）
+    - [KrScriptCore](./docs/js-engine/WebBrowser.md "网页上运行脚本 说明章节")
+
+6. 其它说明
+    - [其它提示](./docs/Other.md)
+    - [kr-script.conf](./docs/kr-script.conf.md) 深入了解启动过程
+
+### 界面展示
+- 在开始之前，不妨先看看界面。
+- 也可以下载最新的release安装包
+- 在你已经ROOT的手机或模拟器上查看效果
+- [已发布的 Release版本](https://github.com/helloklf/kr-scripts/releases)
+
+<img src="./docs/exhibition/home.jpg" height="auto" width="49%" /> <img src="./docs/exhibition/favorite.jpg" height="auto" width="49%" /> <img src="./docs/exhibition/more.jpg" height="auto" width="49%" /> <img src="./docs/exhibition/action-params.jpg" height="auto" width="49%" />
