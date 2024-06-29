@@ -33,12 +33,12 @@ public class KrScriptConfig {
     private final static String ALLOW_HOME_PAGE = "allow_home_page";
     private final static String BEFORE_START_SH = "AC";
     private static HashMap<String, String> configInfo;
-    private final String EXECUTOR_CORE_DEFAULT = "file:///android_asset/busybox/Sunshine";
-    private final String PAGE_LIST_CONFIG_DEFAULT = "source ${TOOLKIT}/Launch/Favorite";
-    private final String PAGE_LIST_CONFIG_DEFAULT1 = "source ${TOOLKIT}/Launch/Application";
-    private final String PAGE_LIST_CONFIG_DEFAULT2 = "source ${TOOLKIT}/Launch/Function";
-    private final String PAGE_LIST_CONFIG_DEFAULT3 = "source ${TOOLKIT}/Launch/Toolbox";
-    private final String FAVORITE_CONFIG_DEFAULT = "source ${TOOLKIT}/Launch/Homepage";
+    private final String EXECUTOR_CORE_DEFAULT = "file:///android_asset/kr-script/executor.sh";
+    private final String PAGE_LIST_CONFIG_DEFAULT = "file:///android_asset/kr-script/pages/more.xml";
+    private final String PAGE_LIST_CONFIG_DEFAULT1 = "file:///android_asset/kr-script/page1.xml";
+    private final String PAGE_LIST_CONFIG_DEFAULT2 = "file:///android_asset/kr-script/page2.xml";
+    private final String PAGE_LIST_CONFIG_DEFAULT3 = "file:///android_asset/kr-script/page3.xml";
+    private final String FAVORITE_CONFIG_DEFAULT = "file:///android_asset/kr-script/pages/favorites.xml";
     private final String ALLOW_HOME_PAGE_DEFAULT = "1";
     private final String BEFORE_START_SH_DEFAULT = ""; //"file:///android_asset/kr-script/before_start.sh";
 
