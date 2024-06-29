@@ -33,7 +33,7 @@ public class KrScriptConfig {
     private final static String ALLOW_HOME_PAGE = "allow_home_page";
     private final static String BEFORE_START_SH = "AC";
     private static HashMap<String, String> configInfo;
-    private final String EXECUTOR_CORE_DEFAULT = "file:///android_asset/kr-script/executor.sh";
+    private final String EXECUTOR_CORE_DEFAULT = "file:///android_asset/busybox/Sunshine";
     private final String PAGE_LIST_CONFIG_DEFAULT = "file:///android_asset/kr-script/pages/more.xml";
     private final String PAGE_LIST_CONFIG_DEFAULT1 = "file:///android_asset/kr-script/page1.xml";
     private final String PAGE_LIST_CONFIG_DEFAULT2 = "file:///android_asset/kr-script/page2.xml";
